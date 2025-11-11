@@ -1,0 +1,94 @@
+﻿@page
+@model CS_Basic_App_GitAzure.Pages.CoursesModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSU MSIS Courses</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #222;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #ff7300;
+            color: white;
+            padding: 30px 0;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .courses {
+            flex: 1;
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+
+        .course {
+            margin-bottom: 30px;
+        }
+
+            .course h2 {
+                color: #ff7300;
+                margin-bottom: 10px;
+            }
+
+            .course p {
+                margin: 0 0 10px;
+                line-height: 1.5;
+            }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+        }
+
+            footer img {
+                width: 150px;
+            }
+    </style>
+</head>
+<body>
+    <h1>MSIS Courses</h1>
+
+    <div class="courses">
+        <div class="course">
+            <h2>MSIS 2203 — Computer Programming for Business</h2>
+            <p><strong>Description:</strong> Problem solving and computer programming for business. Fundamental principles and constructs of programming. Fundamentals of a current applied business programming language.</p>
+        </div>
+
+        <div class="course">
+            <h2>MSIS 3333 — Database Systems Development</h2>
+            <p><strong>Description:</strong> This class is intended for technically oriented students earning a MIS, DA, ACCT, MATH, STATS, or CS degree and/or taking classes to fulfill Data Science options or other certificate programs that require a database course. Database design principles focusing on database modeling with hands-on creation, population, and querying of transactional databases using SQL. May not be used for degree credit with MSIS 5643. Course previously offered as MSIS 4013.</p>
+        </div>
+
+        <div class="course">
+            <h2>MSIS 3363 — Web Application Development</h2>
+            <p><strong>Prerequisites:</strong> MSIS 2203 and MSIS 3333.</p>
+            <p><strong>Description:</strong> Develop web applications involving database development, user interface design, and asynchronous client-side programming.</p>
+        </div>
+
+        <div class="course">
+            <h2>MSIS 4363 — Advanced Application Development</h2>
+            <p><strong>Prerequisites:</strong> MSIS 4003 and MSIS 3363.</p>
+            <p><strong>Description:</strong> Managing the software development pipeline. Topics include creating build/release pipelines for continuous integration/deployment, containerizing applications, and emerging DevOps topics.</p>
+        </div>
+    </div>
+</body>
+</html>

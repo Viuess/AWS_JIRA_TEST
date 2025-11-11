@@ -29,7 +29,7 @@ body {
     align-items: flex-end;
     height: 45em;
     width: 100%;
-    background-image: url('../images/banner_13_8080905ebb.png');
+    background-image: url('../images/spearsbannerimg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -85,6 +85,23 @@ body {
 .section_reverse {
     flex-direction: row-reverse;
 }
+
+
+.learn_more_btn {
+    background-color: #f37021;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+    .learn_more_btn:hover {
+        background-color: #cf5f1d;
+        color: black;
+    }
 
 .full_width_section {
     background-color: #f37021;
